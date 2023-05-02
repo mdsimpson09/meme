@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(156, 207, 220);
+    color: rgb(3, 0, 31);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+body h1{
+    font-size: 40px;
+    text-align: center;
+   
+}
+label{
+    color: rgb(3, 0, 31);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+input {
+    box-sizing: content-box;
+    width: 200px;
+    height: 20px;
+}
+
+
+#meme-container {
+   display: flex;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .meme {
+    width: max-content;
+    position: relative;
+    display: flex;
+    /* margin: 10px; */
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    border-style: ridge;
+  }
+  
+  .meme img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .meme p {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  
+  .meme .top-text {
+    top: 0;
+  }
+  
+  .meme .bottom-text {
+    bottom: 0%;
+    color: blackS;
+  }
+
+.meme .remove-button {
+    position: absolute;
+    bottom: -30px;
+}
+
+button{
+    padding: 0.1em 0.1em 0em 0em;
+    border: 1;
+    border-color: #0078ff;
+    background: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    box-shadow: 5px 3px rgb(3 61 86);
+    transition: all 0.1s linear;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+  
+  
+  button:hover {
+    box-shadow: 5px 5px #0078ff;
+  }
+  
